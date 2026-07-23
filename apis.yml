@@ -1,7 +1,31 @@
 aid: aireye
-name: Aireye
-description: Aireye is a company surfaced as a portfolio company of canaan-partners and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/aireye.png
+name: AirEye
+description: >-
+  AirEye is a wireless airspace security company delivering Wireless Detection
+  and Response (WDR) for enterprise IT and OT environments. Its AI-driven,
+  agentless SaaS platform individually protects every Wi-Fi-enabled asset without
+  isolating it from the network, identifying and classifying devices and wireless
+  interactions, visualizing wireless communications in real time, automatically
+  preventing threats through policy enforcement, and providing forensic analysis
+  of incidents. AirEye addresses unauthorized wireless access, data leakage,
+  network-segmentation circumvention, and device hijacking, with a focus on
+  healthcare providers, defense manufacturers, and general enterprises. The
+  company has been recognized in multiple Gartner market guides for medical
+  device security and operational technology protection. This profile was
+  surfaced as a portfolio-company lead; AirEye publishes no public API or
+  developer program at this time.
 url: https://raw.githubusercontent.com/api-evangelist/aireye/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -14,9 +38,28 @@ created: '2026-07-17'
 modified: '2026-07-17'
 tags:
 - Company
+- Security
+- Cybersecurity
+- Wireless
+- Network Security
+- Wi-Fi
+- Operational Technology
+- Threat Detection
 apis: []
+common:
+- type: DomainSecurity
+  url: security/aireye-domain-security.yml
+- type: Website
+  url: https://www.aireye.tech
+- type: Blog
+  url: https://www.aireye.tech/blog/
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
